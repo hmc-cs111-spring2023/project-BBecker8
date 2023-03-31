@@ -23,14 +23,24 @@ I began the week early last Friday because I was bored. I began by building a ch
 (outcome- a word in all caps representing the outcome of a play or an additional tag for a play)
 This aspect of my project was pretty straight forward and had little to no hiccups except for some experimentation with the regex pattern (link to code here). Error handling for the parser has not yet been implemented but will be in the near future.
 chart image:
+
 <img width="602" alt="Screen Shot 2023-03-30 at 7 55 34 PM" src="https://user-images.githubusercontent.com/97985236/229011324-73a37a60-9a6c-4df1-becb-0fb2
+                                                                 
 <img width="609" alt="Screen Shot 2023-03-30 at 7 56 25 PM" src="https://user-images.githubusercontent.com/97985236/229011458-dc9f8c81-b94c-42b0-9ea6-41e305c15878.png">
 7c6c819e.png">
 
 image of possibe inputs:
+
 <img width="233" alt="Screen Shot 2023-03-30 at 7 57 16 PM" src="https://user-images.githubusercontent.com/97985236/229011588-d87b5cbd-4055-46f5-9c0d-92ce86e1a7dc.png">
 
 Continuing this week I got ahead by planning out and implementing the data structure that would represent a spreadsheet of a football game. I began by drawing up a layout of a hashmap with a possible representation of a player that may be stored within it (see images below). Then I wrote down some notes/drawings of things that I want to make sure get implemented with this data structure such as having the ability to update a player or add a player to the hashmap. (see images below). Next I began my implantation by building a game class. This class houses the hashmap that has a string key representing the type of play and an arraylist of players to be stored for each hash. This was straight forward and I had no problems. Next I began building an abstract parent class called player. The goal of this class is to hold all possible variables, methods, getters, constructors that may be used in a given player type (subclasses)(link to code here). This was straightforward but took some experimenting with the subclasses. Next I build a subclass for each type of player (9 total). Each subclass represents a different type of player and each type's constructor is slightly different (link to code here). But the creation of these classes went very smoothly. Next I worked on a method in the game class that would allow me to add a player to a specified hash given the string of the hash and the player to be added. The add method is very similar to the default add method but just tailored towards data structure and the player class. Finally to end the week I build a function called setPlayer that allows for specific attributes of a player to be updated. Say you wanted to update the number of yards a rushing player rushed for you could do so with this method. The challenge of this method was that each player type needed a slightly different implementation. Overall this was not hard but tedious. (link for code) 
+
+Images of plan for data structure:
+
+![IMG_8536](https://user-images.githubusercontent.com/97985236/229011899-63f02c5f-6cd8-45f6-b733-30941eff8a9f.jpeg)
+
+![IMG_8537](https://user-images.githubusercontent.com/97985236/229011930-5868f4ad-4787-41de-8b9b-c768a75b8c80.jpeg)
+
 
 ## Questions
 
