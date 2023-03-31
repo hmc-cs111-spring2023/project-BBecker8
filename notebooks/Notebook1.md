@@ -24,10 +24,9 @@ I began the week early last Friday because I was bored. I began by building a ch
 This aspect of my project was pretty straight forward and had little to no hiccups except for some experimentation with the regex pattern (link to code here). Error handling for the parser has not yet been implemented but will be in the near future.
 chart image:
 
-<img width="602" alt="Screen Shot 2023-03-30 at 7 55 34 PM" src="https://user-images.githubusercontent.com/97985236/229011324-73a37a60-9a6c-4df1-becb-0fb2
+<img width="602" alt="Screen Shot 2023-03-30 at 7 55 34 PM" src="https://user-images.githubusercontent.com/97985236/229011324-73a37a60-9a6c-4df1-becb-0fb27c6c819e.png">
                                                                  
 <img width="609" alt="Screen Shot 2023-03-30 at 7 56 25 PM" src="https://user-images.githubusercontent.com/97985236/229011458-dc9f8c81-b94c-42b0-9ea6-41e305c15878.png">
-7c6c819e.png">
 
 image of possibe inputs:
 
